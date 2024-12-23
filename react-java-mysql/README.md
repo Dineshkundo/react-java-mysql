@@ -46,6 +46,7 @@ Make sure port 3000 on the host is not already being in use.
 ## Deploy with docker compose
 
 ```
+$ docker login
 $ docker compose up -d
 Creating network "react-java-mysql-default" with the default driver
 Building backend
